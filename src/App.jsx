@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 
 
@@ -17,9 +16,9 @@ export default function App() {
         </div>
       </header>
 
-      {/* Hero */}
+      {/* Titulo */}
       <section className="text-center py-20 bg-gray-800">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Hola, soy Adolfo 👋</h2>
+        <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Hola, soy Adolfo Sepúlveda</h2>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto">Desarrollador Full Stack apasionado por crear soluciones innovadoras con tecnología.</p>
       </section>
 
@@ -32,7 +31,7 @@ export default function App() {
             <p className="text-gray-400 mb-4">Breve descripción del proyecto y tecnologías utilizadas.</p>
             <a href="#" className="text-yellow-400 hover:underline">Ver más</a>
           </div>
-          {/* Puedes mapear más proyectos aquí luego */}
+          {/* Aca se deben agregar más proyectos */}
         </div>
       </section>
 

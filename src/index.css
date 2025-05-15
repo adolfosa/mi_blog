@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Si quieres reglas adicionales, agrégalas aquí abajo: */
-
 :root {
   font-family: system-ui, sans-serif;
 }
