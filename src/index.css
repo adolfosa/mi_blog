@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Si quieres reglas adicionales, agrégalas aquí abajo: */
+
+:root {
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  @apply min-h-screen bg-gray-900 text-white m-0;
+}
