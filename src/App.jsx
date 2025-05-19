@@ -1,4 +1,28 @@
 import './App.css';
+import ClayCard from './componentes/ClayCard.jsx';
+import './componentes/claycard.css';
+
+//aca se agregan los proyectos
+const projects = [
+  {
+    title: 'Tótems Android',
+    excerpt: 'Tótems android para la venta de pasajes de bus Pullman.',
+    fullText: 'Tótems android para la venta de pasajes de bus Pullman.',
+    imageUrl: 'src/assets/totem_android/yo_tirao.jpeg',
+  },
+  {
+    title: 'Terminal Calama',
+    excerpt: 'Sistema de cobro de estacionamiento, baños y costodia para el futuro Terminal Calama.',
+    fullText: 'Sistema de cobro de estacionamiento, baños y costodia para el futuro Terminal Calama.',
+    imageUrl: 'src/assets/terminal_calama/calama.png'
+  },
+  {
+    title: 'Dev Ops',
+    excerpt: 'Mi camino real en Automatización, Infraestructura y Sistemas.',
+    fullText: 'Durante los últimos meses, mi rol como desarrollador se ha expandido hacia un terreno que, si bien conocía conceptualmente, ahora estoy explorando de forma activa y profunda: el universo DevOps.',
+    imageUrl: 'src/assets/practica/image.png'
+  }
+];
 
 export default function App() {
   return (
@@ -8,7 +32,7 @@ export default function App() {
         <div className="header-content">
           <h1 className="logo">Adolfo.dev</h1>
           <nav className="nav-links">
-            <a href="#proyectos">Proyectos</a>
+            <a href="#blogs">Blogs</a>
             <a href="#sobre-mi">Sobre mí</a>
             <a href="#contacto">Contacto</a>
           </nav>
@@ -23,13 +47,17 @@ export default function App() {
 
       {/* Proyectos */}
       <section id="proyectos" className="projects">
-        <h2 className="section-title">Proyectos destacados</h2>
+        <h2 className="section-title">Blogs</h2>
         <div className="projects-grid">
-          <div className="project-card">
-            <h3 className="project-title">Nombre del Proyecto</h3>
-            <p className="project-description">Breve descripción del proyecto y tecnologías utilizadas.</p>
-            <a href="#" className="project-link">Ver más</a>
-          </div>
+          {projects.map((project, index) => (
+            <ClayCard
+              key={index}
+              title={project.title}
+              excerpt={project.excerpt}
+              fullText={project.fullText}
+              imageUrl={project.imageUrl}
+            />
+          ))}
         </div>
       </section>
 
