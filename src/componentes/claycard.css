@@ -63,21 +63,12 @@
 
 .clay-card-front {
   background-color: #ffffff;
-  box-shadow:
-    15px 15px 30px rgba(0, 0, 0, 0.1),
-    -15px -15px 30px rgba(255, 255, 255, 0.8),
-    inset 5px 5px 10px rgba(0, 0, 0, 0.05),
-    inset -5px -5px 10px rgba(255, 255, 255, 0.5);
+  
 }
 
 .clay-card-back {
   background-color: #ffffff;
-  transform: rotateY(180deg);
-  box-shadow:
-    15px 15px 30px rgba(0, 0, 0, 0.1),
-    -15px -15px 30px rgba(255, 255, 255, 0.8),
-    inset 5px 5px 10px rgba(0, 0, 0, 0.05),
-    inset -5px -5px 10px rgba(255, 255, 255, 0.5);
+  transform: rotateY(180deg);  
 }
 
 .clay-card-image {

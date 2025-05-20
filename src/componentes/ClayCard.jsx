@@ -1,8 +1,15 @@
 import './claycard.css';
+import { motion as Motion } from 'framer-motion';
 
 const ClayCard = ({ title, excerpt, fullText, imageUrl }) => {
   return (
-    <div className="clay-card">
+    <Motion.div
+      className="clay-card"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+      whileHover={{ scale: 1.03 }}
+    >
       <div className="clay-card-inner">
         {/* Lado frontal */}
         <div className="clay-card-front">
@@ -22,7 +29,7 @@ const ClayCard = ({ title, excerpt, fullText, imageUrl }) => {
           </div>
         </div>
       </div>
-    </div>
+    </Motion.div>
   );
 };
 
