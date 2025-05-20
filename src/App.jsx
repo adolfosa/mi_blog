@@ -1,6 +1,9 @@
 import './App.css';
 import ClayCard from './componentes/ClayCard.jsx';
 import './componentes/claycard.css';
+import ScrollToTopButton from './componentes/ScrollToTopButton.jsx';
+import './componentes/scrollToTop.css';
+
 
 //aca se agregan los proyectos
 const projects = [
@@ -90,6 +93,7 @@ export default function App() {
       <footer className="footer">
         © 2025 Adolfo.dev — Todos los derechos reservados.
       </footer>
+      <ScrollToTopButton />
     </div>
   );
 }
