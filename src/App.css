@@ -44,6 +44,7 @@
   text-align: center;
   padding: 5rem 0; /* py-20 */
   background-color: #1f2937; /* bg-gray-800 */
+  font-family: "Cabin", sans-serif;
 }
 
 .hero-title {
