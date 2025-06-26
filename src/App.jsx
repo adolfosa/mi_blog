@@ -5,7 +5,7 @@ import ScrollToTopButton from './componentes/ScrollToTopButton.jsx';
 import './componentes/scrollToTop.css';
 import yoTirao from './assets/totem_android/yo_tirao.jpeg'
 import calama from './assets/terminal_calama/calama.png'
-import yoAnime from './assets/yo_anime/image.png'
+import yoAnime from './assets/practica/image.png'
 
 
 //aca se agregan los proyectos
