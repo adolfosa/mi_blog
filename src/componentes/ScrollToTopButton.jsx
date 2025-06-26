@@ -1,4 +1,3 @@
-// src/componentes/ScrollToTopButton.jsx
 import { useEffect, useState } from 'react';
 import { ArrowUp } from 'lucide-react'; // Requiere instalar `lucide-react` o usa cualquier icono SVG
 import './scrollToTop.css';

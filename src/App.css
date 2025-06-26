@@ -4,7 +4,9 @@
   color: white;
   font-family: sans-serif; /* font-sans */
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* Header */
 .header {
   padding: 1.5rem; /* p-6 */
