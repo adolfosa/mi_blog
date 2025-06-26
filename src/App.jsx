@@ -3,6 +3,9 @@ import ClayCard from './componentes/ClayCard.jsx';
 import './componentes/claycard.css';
 import ScrollToTopButton from './componentes/ScrollToTopButton.jsx';
 import './componentes/scrollToTop.css';
+import yoTirao from './assets/totem_android/yo_tirao.jpeg'
+import calama from './assets/terminal_calama/calama.png'
+import yoAnime from './assets/yo_anime/image.png'
 
 
 //aca se agregan los proyectos
@@ -11,19 +14,19 @@ const projects = [
     title: 'Tótems Android',
     excerpt: 'Tótems android para la venta de pasajes de bus Pullman.',
     fullText: 'Tótems android para la venta de pasajes de bus Pullman.',
-    imageUrl: 'src/assets/totem_android/yo_tirao.jpeg',
+    imageUrl: yoTirao,
   },
   {
     title: 'Terminal Calama',
     excerpt: 'Sistema de cobro de estacionamiento, baños y costodia para el futuro Terminal Calama.',
     fullText: 'Sistema de cobro de estacionamiento, baños y costodia para el futuro Terminal Calama.',
-    imageUrl: 'src/assets/terminal_calama/calama.png'
+    imageUrl: calama,
   },
   {
     title: 'Dev Ops',
     excerpt: 'Mi camino real en Automatización, Infraestructura y Sistemas.',
     fullText: 'Durante los últimos meses, mi rol como desarrollador se ha expandido hacia un terreno que, si bien conocía conceptualmente, ahora estoy explorando de forma activa y profunda: el universo DevOps.',
-    imageUrl: 'src/assets/practica/image.png'
+    imageUrl: yoAnime,
   }
 ];
 
